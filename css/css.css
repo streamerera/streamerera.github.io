@@ -1,0 +1,98 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-family:"微软雅黑";
+	font-size:13px;
+	color:#333
+	}
+img{
+	border:none;
+	}
+body{
+	background:#F8F8F8;
+	}
+.clear{
+	clear:both;
+	}
+.top-c{
+	height:168PX;
+	background:url(../images/top-bg.png) center repeat-x;
+	border-bottom:6px solid #E6E6E6;
+	}
+.top-c .logo{
+	min-width:1000px;
+	height:168px;
+	margin:0 auto;
+	background:url(../images/logo.png) center no-repeat;
+	}
+.ban-c{
+	background:#FFF;
+	}
+.ban-c div{
+	width:1000px;
+	margin:0 auto;
+	padding-left:5px
+	}
+.ban-c img{
+	width:1000px;
+	display:block;
+	}
+.content{
+	width:1000px;
+	margin:0 auto;
+	background:#FFF;
+	padding:20px 0px 20px 4px;
+	}
+.about{
+	width:700px;
+	float:left;
+	}
+.contact{
+	width:280px;
+	float:right;
+	}
+.nav{
+	height:26px;
+	background:url(../images/nav-bg.jpg) center left no-repeat;
+	color:#FFF;
+	font-weight:bold;
+	line-height:30px;
+	padding-left:15px
+	}
+.text,.text1{
+	padding:10px 0px;
+	line-height:20px
+	}
+.text img{
+	float:left;
+	margin:0 5px 5px 0;
+	}
+.job-c{
+	padding:20px 0px;
+	}
+.job-c ul{
+	border:1px solid #E6E6E6;
+	padding:20px;
+	margin:10px;
+	height:150px
+	}
+.job-c ul li{
+	margin-left:18px;
+	float:left;
+	text-align:center;
+	}
+.job-c ul li img{
+	border:1px solid #ccc;
+	}
+.foot{
+	padding:20px;
+	min-width:1000px;
+	text-align:center;
+	background:#0570BF;
+	}
+.foot p{
+	color:#FFF;
+	padding:5px;
+	}
