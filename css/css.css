@@ -7,6 +7,10 @@
 	font-size:13px;
 	color:#333
 	}
+div,table{
+	table-layout: auto fixed;
+	word-break:break-all;
+	}
 img{
 	border:none;
 	}
@@ -18,14 +22,14 @@ body{
 	}
 .top-c{
 	height:168PX;
-	background:url(../images/top-bg.png) center repeat-x;
+	background:url(http://lechequan.qiniudn.com/whbsi/top-bg.png) center repeat-x;
 	border-bottom:6px solid #E6E6E6;
 	}
 .top-c .logo{
 	min-width:1000px;
 	height:168px;
 	margin:0 auto;
-	background:url(../images/logo.png) center no-repeat;
+	background:url(http://lechequan.qiniudn.com/whbsi/logo.png) center no-repeat;
 	}
 .ban-c{
 	background:#FFF;
@@ -55,7 +59,7 @@ body{
 	}
 .nav{
 	height:26px;
-	background:url(../images/nav-bg.jpg) center left no-repeat;
+	background:url(http://lechequan.qiniudn.com/whbsi/nav-bg.jpg) center left no-repeat;
 	color:#FFF;
 	font-weight:bold;
 	line-height:30px;
@@ -95,4 +99,37 @@ body{
 .foot p{
 	color:#FFF;
 	padding:5px;
+	}
+.news_box{
+	margin-top:20px;
+	min-height:200px
+	}
+.news_box li{
+	padding:5px;
+	list-style:inside
+	}
+.word_box h2{
+	text-align:center;
+	font-size:18px;
+	margin:20px 0;
+	}
+.word_box h3{
+	text-align:center;
+	font-size:16px;
+	margin:10px 0;
+	}
+.word_box p{
+	line-height:25px;
+	text-indent:2em;
+	}
+.word_box p img{
+	display:block;
+	margin:0 auto;
+	}
+.word_box table{
+	background:#ccc;
+	}
+.word_box table td{
+	padding:5px;
+	background:#FFF
 	}
